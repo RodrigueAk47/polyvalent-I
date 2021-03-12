@@ -1,3 +1,47 @@
 body {
-    background-color: red;
+    background-color: rgb(218, 213, 213);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-majuscule {
+    text-transform: uppercase;
+}
+
+.gros {
+    font-size: 32px;
+}
+
+.centrer {
+    text-align: center;
+}
+
+.souligner {
+    text-decoration: underline;
+}
+
+.img-100 {
+    width: 100%;
+}
+
+ul {
+    text-align: center;
+  
+}
+
+ul li{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+.table {
+    background-color: rgb(36, 36, 146);
+    padding: 12px;
+    margin: 12px;
+}
+
+.couleur-blanche {
+    color: white;
 }
