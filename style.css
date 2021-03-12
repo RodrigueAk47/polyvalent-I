@@ -4,10 +4,18 @@ body {
     height: 100vh;
     display: grid;
     place-items: center center;
+    padding-top: 70px;
 }
 
 .text-majuscule {
     text-transform: uppercase;
+    
+}
+
+
+
+.pas-souligner-lien {
+    text-decoration: none;
 }
 
 .gros {
@@ -24,6 +32,7 @@ body {
 
 .img-100 {
     width: 100%;
+    border-radius: 20px;
 }
 
 ul {
@@ -39,10 +48,20 @@ ul li{
     font-size: 20px;
 }
 
+.table-nav {
+    position: fixed ;
+    top: 0;
+    left: 0;
+    background-color: rgb(167, 170, 170);
+    width: 100%;
+    padding: 2px;
+}
+
 .table {
     background-color: rgb(36, 36, 146);
-    padding: 12px;
-    margin: 12px;
+    padding: 3px;
+    margin: 15px;
+    border-radius: 7px;
 }
 
 .couleur-blanche {
@@ -68,6 +87,12 @@ ul li{
     clip-path: polygon(0 0,100% 0, 100%
      85%, 0 100%);
 }
+
+.lien:hover {
+    background-color: #7c7caf;
+}
+
+
 
 img {
     width: 100%;
