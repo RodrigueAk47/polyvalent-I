@@ -1,6 +1,9 @@
 body {
     background-color: rgb(218, 213, 213);
     font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: grid;
+    place-items: center center;
 }
 
 .text-majuscule {
@@ -44,4 +47,22 @@ ul li{
 
 .couleur-blanche {
     color: white;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+
+.card {
+    background-color: #1c1b29;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(0, 0, 0 , 0.18);
+}
+
+img {
+    width: 100%;
 }
