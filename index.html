@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>page d'accueil</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
@@ -18,33 +16,36 @@
     </div>
      <ul class="table ">
         <li> 
-            <a class="couleur-blanche pas-souligner-lien lien active" href="index.html">Home</a>
+            <a class="couleur-blanche pas-souligner-lien lien active" href="pages/index.html">Home</a>
         </li>
         <li>
-            <a class="couleur-blanche pas-souligner-lien lien" href="product.html">Product</a>
+            <a class="couleur-blanche pas-souligner-lien lien" href="pages/product.html">Product</a>
         </li>
         <li>
-            <a class="couleur-blanche pas-souligner-lien lien" href="contact.html">Contact</a>
+            <a class="couleur-blanche pas-souligner-lien lien" href="pages/contact.html">Contact</a>
         </li>
     </ul>
     </nav>
 </header>
 <main>
-    <img class="img-100" src="14.jpg" alt="desktop image">
+    <img class="img-100" src="img/14.jpg" alt="desktop image">
 
     <h2 class="text-majuscule">&nbsp;&nbsp;About us</h2>
-   <img src="1.jpg" class="img-left" alt="">
+    <div class="container-about">
+   <img src="img/1.jpg" class="img-left" alt="">
    <p class="paragraphe-1"> Lorem ipsum dolor sit amet consectetur
        adipisicing elit. Rem aspernatur et quae 
        quidem eligendi maiores ipsa laborum sit 
        repellendus, ratione placeat atque nobis nam, 
        saepe .</p> <br>
 
+    </div>
+
     <h2 class="text-majuscule">Quick Product</h2>
     <div class="cards">
         <div class="card card1">
             <div class="conteneur">
-                <img src="8.jpg" alt="">
+                <img src="img/8.jpg" alt="">
             </div>
             <div class="details">
                 <h3>Lorem ipsum dolor.</h3>
@@ -56,7 +57,7 @@
         </div>
         <div class="card card1">
             <div class="conteneur">
-                <img src="3.jpg" alt="">
+                <img src="img/3.jpg" alt="">
             </div>
             <div class="details">
                 <h3>Lorem ipsum dolor.</h3>
@@ -69,7 +70,7 @@
     </div>
 </main>
 <footer>
-    <p>AMS - Rodrigue Assohou &copy; 2021</p>
+    <p>AMS - <a style="text-decoration: none;" href="pages/love.html">Rodrigue Assohou </a> &copy; 2021</p>
 </footer>
 </body>
 </html>
